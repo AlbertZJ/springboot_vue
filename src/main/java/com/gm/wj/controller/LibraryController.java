@@ -67,7 +67,7 @@ public class LibraryController {
             file.transferTo(f);
 //            System.out.println(file.getOriginalFilename());
 //            System.out.println("http://localhost:8443/api/file/" + f.getName());
-          // 本地地址
+
            String imgURL = "http://localhost:8087/api/file/" + f.getName();
            // String imgURL = "http://47.98.230.170:8085/api/file/" + f.getName();
             return imgURL;
