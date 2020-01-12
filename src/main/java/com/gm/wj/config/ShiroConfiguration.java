@@ -32,7 +32,8 @@ public class ShiroConfiguration {
     }
 
     @Bean
-    public WJRealm getWJRealm() {
+    public WJRealm
+    getWJRealm() {
         WJRealm wjRealm = new WJRealm();
         wjRealm.setCredentialsMatcher(hashedCredentialsMatcher());
         return wjRealm;
